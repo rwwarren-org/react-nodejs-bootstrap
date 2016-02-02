@@ -26,5 +26,5 @@ var server = app.listen(serverPort, serverAddress, function() {
   var host = server.address().address;
   var port = server.address().port;
   console.log(server.address());
-  console.log('Car connection app listening at http://%s:%s', host, port);
+  console.log('app listening at http://%s:%s', host, port);
 });
