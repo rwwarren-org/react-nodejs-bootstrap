@@ -1,0 +1,73 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo {
+}
+
+.nav {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ol, .nav ul {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.nav li:after {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.nav li:last-child {
+    border-right: 0;
+}
+
+.content {
+}
+
+.footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+
+}
+
+/*$(document).ready(function(){$('#username').focus()});function check_login(){$.ajax({type:'POST',url:'login.php', data: { Username: $('#username').val(), Password: $('#password').val(), Token: $('#token').val()},statusCode: {200: function() {window.location = '/';},403: function(){ $('#loginStatus').css({'color':'#cccccc','display':'block'}).html('Error, wrong username or password!')},401: function(){ $('#loginStatus').css({'color':'#cccccc','display':'block'}).html('Error, Token invalid!')},400: function(){ $('#loginStatus').css({'color':'#cccccc','display':'block'}).html('Error, username or password no entered!')}}});};*/
