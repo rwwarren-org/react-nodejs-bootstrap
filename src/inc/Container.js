@@ -26,7 +26,7 @@ var Container = React.createClass({
       <div className="container">
         <Logo />
         <Nav />
-        {<Home /> }
+        <RouteHandler />
         <Footer />
       </div>
     );
